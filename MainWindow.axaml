@@ -5,5 +5,9 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="CS_VSC_AvaloniaTest.MainWindow"
         Title="CS_VSC_AvaloniaTest">
-    Welcome to Avalonia!
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock x:Name="TB_WebStatus" Text="Static Text" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="TB_WebMessage" Text="Dynamic Text" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button x:Name="Button1" Click="Button1Handler" Background="Blue" Foreground="Yellow" Content="Click" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </StackPanel> 
 </Window>
